@@ -4,16 +4,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.chatroomapp.databinding.ActivityMainBinding;
+import com.example.chatroomapp.databinding.ActivityChatRoomBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class ChatRoom extends AppCompatActivity {
 
-    ActivityMainBinding binding;
+    ActivityChatRoomBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivityChatRoomBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
     }
 }
